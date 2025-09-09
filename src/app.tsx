@@ -1,3 +1,5 @@
 export default function App() {
-  return <h1>123</h1>
+  throw new Error('렌더링 오류')
+
+  return <h1 className="text-7xl font-bold">템플릿</h1>
 }
